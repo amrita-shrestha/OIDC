@@ -1,0 +1,20 @@
+{
+    "name": "amrita/oidcocis",
+    "description": "code to authenticate using ocis",
+    "autoload": {
+        "psr-4": {
+            "Amrita\\Oidcocis\\": "src/"
+        }
+    },
+    "require": {
+        "jumbojett/openid-connect-php": "^0.9.10",
+        "facile-it/php-openid-client": "^0.3.3",
+        "symfony/http-client": "^5.4",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
