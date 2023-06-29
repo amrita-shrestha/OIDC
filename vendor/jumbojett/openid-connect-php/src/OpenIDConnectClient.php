@@ -971,7 +971,6 @@ class OpenIDConnectClient
         if (null !== $authorizationHeader) {
             $headers[] = $authorizationHeader;
         }
-
         $this->tokenResponse = json_decode($this->fetchURL($token_endpoint, $token_params, $headers));
 
         return $this->tokenResponse;
