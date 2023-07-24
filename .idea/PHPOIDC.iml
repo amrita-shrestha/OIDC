@@ -38,6 +38,16 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/web-token/jwt-key-mgmt" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/web-token/jwt-signature" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/web-token/jwt-signature-algorithm-rsa" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/dav" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/event" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/http" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/uri" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/vobject" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/xml" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

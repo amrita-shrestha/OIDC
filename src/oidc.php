@@ -9,9 +9,9 @@ $oidc = new OpenIDConnectClient('https://localhost:9200',
 );
 
 $oidc->setRedirectURL('http://localhost/ProfessionalDevelopment/PHPOIDC/src/welcome.php');
-$oidc->addScope(["openid", "profile", "email", "offline_access"]);
+$oidc->addScope(["offline_access"]);
 $oidc->setCodeChallengeMethod('S256');
-$oidc->setResponseTypes(['code']);
+$oidc->setResponseTypes(['token']);
 $oidc->addAuthParam(['response_mode' => 'query']);
 $oidc->setTokenEndpointAuthMethodsSupported(["client_secret_basic"]);
 
