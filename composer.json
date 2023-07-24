@@ -10,7 +10,9 @@
         "jumbojett/openid-connect-php": "^0.9.10",
         "facile-it/php-openid-client": "^0.3.3",
         "symfony/http-client": "^5.4",
-        "nyholm/psr7": "^1.8"
+        "nyholm/psr7": "^1.8",
+        "sabre/dav": "^4.4",
+        "guzzlehttp/guzzle": "^7.7"
     },
     "config": {
         "allow-plugins": {

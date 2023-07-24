@@ -6,11 +6,19 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    '383eaff206634a77a1be54e64e6459c7' => $vendorDir . '/sabre/uri/lib/functions.php',
     '6e3fae29631ef280660b3cdad06f25a8' => $vendorDir . '/symfony/deprecation-contracts/function.php',
+    '2b9d0f43f9552984cfa82fee95491826' => $vendorDir . '/sabre/event/lib/coroutine.php',
+    'd81bab31d3feb45bfe2f283ea3c8fdf7' => $vendorDir . '/sabre/event/lib/Loop/functions.php',
+    'a1cce3d26cc15c00fcd0b3354bd72c88' => $vendorDir . '/sabre/event/lib/Promise/functions.php',
+    '3569eecfeed3bcf0bad3c998a494ecb8' => $vendorDir . '/sabre/xml/lib/Deserializer/functions.php',
+    '93aa591bc4ca510c520999e34229ee79' => $vendorDir . '/sabre/xml/lib/Serializer/functions.php',
+    '7b11c4dc42b3b3023073cb14e519683c' => $vendorDir . '/ralouphie/getallheaders/src/getallheaders.php',
     '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
     'c2b3214084883d700175de676a4fc127' => $vendorDir . '/facile-it/php-jose-verifier/src/functions/derived_key.php',
     '16040cf78e404de30085045d3863ed51' => $vendorDir . '/facile-it/php-jose-verifier/src/functions/jose_secret_key.php',
     'decc78cc4436b1292c6c0d151b19445c' => $vendorDir . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
+    'ebdb698ed4152ae445614b69b5e4bb6a' => $vendorDir . '/sabre/http/lib/functions.php',
     '0d59ee240a4cd96ddbb4ff164fccea4d' => $vendorDir . '/symfony/polyfill-php73/bootstrap.php',
     'a4a119a56e50fbb293281d9a48007e0e' => $vendorDir . '/symfony/polyfill-php80/bootstrap.php',
     'ba61337b858c088ff9f16a5fc3badbeb' => $vendorDir . '/facile-it/php-openid-client/src/functions/base64url_decode.php',
@@ -21,4 +29,5 @@ return array(
     '7c81c910ae659a850f6ed57a459ee746' => $vendorDir . '/facile-it/php-openid-client/src/functions/jose_secret_key.php',
     'd351829768bdeb0b4c8778ff856e94a7' => $vendorDir . '/facile-it/php-openid-client/src/functions/parse_callback_params.php',
     '1ee2d97fff6268312a62b97d07c91ac5' => $vendorDir . '/facile-it/php-openid-client/src/functions/parse_metadata_response.php',
+    '37a3dc5111fe8f707ab4c132ef1dbc62' => $vendorDir . '/guzzlehttp/guzzle/src/functions_include.php',
 );
