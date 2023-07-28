@@ -45,5 +45,5 @@ return array(
     'FG\\' => array($vendorDir . '/fgrosse/phpasn1/lib'),
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
     'Base64Url\\' => array($vendorDir . '/spomky-labs/base64url/src'),
-    'Amrita\\Oidcocis\\' => array($baseDir . '/src'),
+    'Amrita\\' => array($baseDir . '/src'),
 );

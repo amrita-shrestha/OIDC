@@ -102,7 +102,7 @@ class ComposerStaticInit70aac442734434f5ab708ed7c9f3aada
         ),
         'A' => 
         array (
-            'Amrita\\Oidcocis\\' => 16,
+            'Amrita\\' => 7,
         ),
     );
 
@@ -265,7 +265,7 @@ class ComposerStaticInit70aac442734434f5ab708ed7c9f3aada
         array (
             0 => __DIR__ . '/..' . '/spomky-labs/base64url/src',
         ),
-        'Amrita\\Oidcocis\\' => 
+        'Amrita\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

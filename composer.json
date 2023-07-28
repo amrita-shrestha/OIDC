@@ -3,7 +3,7 @@
     "description": "code to authenticate using ocis",
     "autoload": {
         "psr-4": {
-            "Amrita\\Oidcocis\\": "src/"
+            "Amrita\\": "src/"
         }
     },
     "require": {
