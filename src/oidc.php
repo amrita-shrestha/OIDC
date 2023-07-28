@@ -9,9 +9,12 @@ $oidc = new OpenIDConnectClient('https://localhost:9200',
 );
 
 $oidc->setRedirectURL('http://localhost/ProfessionalDevelopment/PHPOIDC/src/welcome.php');
-$oidc->addScope(["offline_access"]);
+//$oidc->setRedirectURL('https://ocis.owncloud.com/oidc-callback.html');
+$oidc->addScope(['openid','offline_access']);
+
+
 $oidc->setCodeChallengeMethod('S256');
-$oidc->setResponseTypes(['token']);
+$oidc->setResponseTypes(['code']);
 $oidc->addAuthParam(['response_mode' => 'query']);
 $oidc->setTokenEndpointAuthMethodsSupported(["client_secret_basic"]);
 
@@ -19,13 +22,13 @@ $oidc->setTokenEndpointAuthMethodsSupported(["client_secret_basic"]);
 // Required for local servers using https
 $oidc->setVerifyHost(false);
 $oidc->setVerifyPeer(false);
-
-echo $oidc->getTokenResponse();
-try {
-    $oidc->authenticate();
-} catch(Exception $e){
-    echo $e;
-}
+$oidc->authenticate();
+//echo $oidc->getTokenResponse();
+//try {
+//    $oidc->authenticate();
+//} catch(Exception $e){
+//    echo $e;
+//}
 
 // Client
 // https://localhost:9200/signin/v1/identifier?
