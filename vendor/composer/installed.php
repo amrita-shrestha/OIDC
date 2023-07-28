@@ -3,7 +3,7 @@
         'name' => 'amrita/oidcocis',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '8ea4929b97bf87531436ca38f8f422b031524a99',
+        'reference' => 'a18c16c3bad5698691f890cb6d2c389eec1253f1',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'amrita/oidcocis' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '8ea4929b97bf87531436ca38f8f422b031524a99',
+            'reference' => 'a18c16c3bad5698691f890cb6d2c389eec1253f1',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -175,8 +175,8 @@
         'psr/http-client-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/http-factory' => array(
